@@ -1,0 +1,16 @@
+
+{
+  "name": "solana-staking-dashboard",
+  "version": "1.0.0",
+  "description": "A dashboard to visualize Solana's staking ecosystem",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "@solana/web3.js": "^1.32.0"
+  },
+  "author": "Anox_0x",
+  "license": "ISC"
+}
