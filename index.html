@@ -3,16 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Solana Staking Dashboard</title>
+    <title>Staking Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="container">
-        <h1>Solana Staking Dashboard</h1>
-        <div id="staking-data">
-            <!-- Staking data will be displayed here -->
-        </div>
-    </div>
-    <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="logo">Staking Rewards</div>
+            <ul>
+                <li><a href="#">Staking Summit</a></li>
+                <li><a href="#">Assets</a></li>
+                <li><a href="#">Providers</a></li>
+                <li><a href="#">Calculator</a></li>
+                <li><a href="#">Journal</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login">Login</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="dashboard">
+            <h1>Solana Staking Rewards</h1>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Complexity</th>
+                        <th>Reward Rate</th>
+                        <th>Lock-up</th>
+                        <th>Avg. Fee</th>
+                        <th>Staking Risk</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Delegate SOL</td>
+                        <td><span class="badge easy">Easy</span></td>
+                        <td>5.95%</td>
+                        <td>1 Day</td>
+                        <td>5%</td>
+                        <td>99.06%</td>
+                    </tr>
+                    <tr>
+                        <td>Run A Validator</td>
+                        <td><span class="badge professional">Professional</span></td>
+                        <td>6.89%</td>
+                        <td>1 Day</td>
+                        <td>1.38%</td>
+                        <td>0.29%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Staking Rewards. All rights reserved.</p>
+    </footer>
 </body>
 </html>
